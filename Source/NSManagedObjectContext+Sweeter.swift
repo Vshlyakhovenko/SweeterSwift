@@ -6,6 +6,7 @@
 
 import CoreData
 
+@available(iOS 15, *)
 public extension NSManagedObjectContext {
     /// Sweeter: Names of all entities in the object model associated with the receiver
     var allEntityNames: [String] {
